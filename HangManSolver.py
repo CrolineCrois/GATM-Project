@@ -5,7 +5,7 @@ listDict = dictionary.read().splitlines()
 listDict = [word.lower() for word in listDict]
 countList = Counter(listDict)
 
-print("\n----------\nWelcome to HangMan Solver!!\n")
+print("\n----------\nWelcome to Snowman Solver!!\n")
 print("Please input the word length to start:\n----------\n")
 
 wordLength = int(input())
